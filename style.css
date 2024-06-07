@@ -305,7 +305,7 @@ p {
 
 /* End Hero Section */
 
-/* Services Section */
+/* skill Section */
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -320,7 +320,7 @@ p {
 
 
 
-/* End Services Section */
+/* End skill Section */
 
 /* Projects section */
 
@@ -353,7 +353,31 @@ p {
   
 /* End About Section */
 
+/* project section */
+.project-title {
+	font-size: 6rem;
+	font-weight: 300;
+	color: black;
 
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+
+
+/* image css */
+
+
+
+
+
+
+
+
+
+
+/* end image css */
+/* end project section */
 
 /* contact Section */
 #contact .contact {
