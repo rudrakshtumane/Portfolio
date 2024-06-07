@@ -55,13 +55,11 @@ p {
 	color: crimson;
 }
 
-/* 
-.brand img {
 
-} */
 .brand h1 span {
 	color: crimson;
 }
+/* ----------------------------------------------------------------- */
 
 /* Header section */
 #header {
@@ -194,6 +192,8 @@ p {
 
 
 /* End Header section */
+/* ---------------------------------------------------------------------------------- */
+
 
 /* Hero Section */
 #hero {
@@ -264,10 +264,6 @@ p {
 }
 
 
-
-
-
-
 /* button */
 .cta  {
 	margin-top: 20px;
@@ -304,6 +300,8 @@ p {
   
 
 /* End Hero Section */
+/* ----------------------------------------------------------------------------------------- */
+
 
 /* skill Section */
 #services .services {
@@ -317,19 +315,8 @@ p {
 	max-width: 500px;
 	margin: 0 auto;
 }
-
-
-
 /* End skill Section */
-
-/* Projects section */
-
-/* End Projects section */
-
-
-
-
-
+/* --------------------------------------------------------------------- */
 
 
 
@@ -352,32 +339,24 @@ p {
    
   
 /* End About Section */
+/* ------------------------------------------------------------ */
+
 
 /* project section */
 .project-title {
 	font-size: 6rem;
 	font-weight: 300;
 	color: black;
-
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
 
 
-/* image css */
 
-
-
-
-
-
-
-
-
-
-/* end image css */
 /* end project section */
+/* ------------------------------------------------------------------------------ */
+
 
 /* contact Section */
 #contact .contact {
@@ -424,6 +403,8 @@ p {
 	font-weight: 500;
 }
 /*End contact Section */
+/* ------------------------------------------------------------------- */
+
 
 /* Footer */
 #footer {
@@ -466,10 +447,9 @@ p {
 }
 
 
-/* ui */
-
-/* end ui */
 /* End Footer */
+/* ------------------------------------------------------------------ */
+
 
 /* Keyframes */
 @keyframes hamburger_puls {
@@ -504,6 +484,8 @@ p {
 	}
 }
 /* End Keyframes */
+/* ---------------------------------------------------------------------------- */
+
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
