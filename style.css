@@ -351,7 +351,17 @@ p {
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
-
+/* scroll  */
+div.scroll-container {
+	background-color: #333;
+	overflow: auto;
+	white-space: nowrap;
+	/* padding: 2px; */
+  }
+  
+  div.scroll-container img {
+	padding: 2px;
+  }
 
 
 /* end project section */
