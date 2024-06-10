@@ -51,9 +51,9 @@ p {
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
-.section-title span {
+/* .section-title span {
 	color: crimson;
-}
+} */
 
 
 .brand h1 span {
@@ -90,7 +90,6 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	/* background-color: rgb(31, 30, 30); */
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -508,20 +507,15 @@ div.scroll-container {
 		font-size: 6rem;
 	} 
 
-	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
 	}
-	/* End Hero */
 
-	/* Services Section */
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
 
-	/* Project */
 	#projects .project-item {
 		flex-direction: row;
 	}
@@ -540,9 +534,7 @@ div.scroll-container {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
-	/* End Project */
-
-	/* About */
+	
 	#about .about {
 		flex-direction: row;
 	}
@@ -565,9 +557,7 @@ div.scroll-container {
 	#about .col-right h1 {
 		text-align: left;
 	}
-	/* End About */
 
-	/* contact  */
 	#contact .contact {
 		flex-direction: column;
 		padding: 100px 0;
@@ -599,14 +589,13 @@ div.scroll-container {
 		text-align: left;
 		padding-left: 20px;
 	}
+	
 }
 
-/* End contact  */
-/* End Media Query For Tablet */
 
-/* Media Query For Desktop */
+
 @media only screen and (min-width: 1200px) {
-	/* header */
+
 	#header .hamburger {
 		display: none;
 	}
@@ -626,11 +615,11 @@ div.scroll-container {
 	#header .nav-list ul a:after {
 		display: none;
 	}
-	/* End header */
+
 
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
 }
-/* End  Media Query For Desktop */
+
