@@ -4,6 +4,7 @@ body {
 	
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
+	max-width: 100%;
 }
 
 /*____________________________________navbar___________________________________________ */
@@ -24,7 +25,7 @@ body {
 .intro{
 	background-image: url(./images/bg-2.avif);
 	background-size: cover;
-	background-position: right;
+	/* background-position: right; */
 	position: relative;
 	z-index: -1;
 	max-width: 100%;
